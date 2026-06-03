@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ghorm",
+    "name": "Ghorm the Devourer",
+    "type": "Boss",
+    "biome": "The Clay Caves",
+    "attackPatterns": [
+      "Percorre trilhas circulares em alta velocidade",
+      "Causa dano de contato contínuo",
+      "Cria pressão para reposicionamento"
+    ],
+    "summonStrategy": "Ative os 3 scanners de locação e prepare arena com obstáculos removidos.",
+    "lootTable": [
+      { "item": "Ghorm's Horn", "dropRate": "100%" },
+      { "item": "Slimy Egg", "dropRate": "16.7%" },
+      { "item": "Devourer Necklace", "dropRate": "12%" }
+    ]
+  },
+  {
+    "id": "azeos",
+    "name": "Azeos the Sky Titan",
+    "type": "Boss",
+    "biome": "Azeos' Wilderness",
+    "attackPatterns": [
+      "Rajadas elétricas em cone",
+      "Invoca criaturas durante a luta",
+      "Ataques em área com delay curto"
+    ],
+    "summonStrategy": "Use Large Shiny Glimmering Object na arena e maximize resistência elétrica.",
+    "lootTable": [
+      { "item": "Azeos Feather", "dropRate": "100%" },
+      { "item": "Sky Ring", "dropRate": "14%" },
+      { "item": "Titan's Soul", "dropRate": "8%" }
+    ]
+  },
+  {
+    "id": "caveling-brute",
+    "name": "Caveling Brute",
+    "type": "Enemy",
+    "biome": "The Forgotten Ruins",
+    "attackPatterns": [
+      "Golpes lentos de alto dano",
+      "Curta investida frontal"
+    ],
+    "summonStrategy": "Encontrado naturalmente em acampamentos de Caveling.",
+    "lootTable": [
+      { "item": "Iron Bar", "dropRate": "24%" },
+      { "item": "Mechanical Part", "dropRate": "11%" }
+    ]
+  }
+]

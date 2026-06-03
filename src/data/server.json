@@ -1,0 +1,29 @@
+{
+  "gameId": "CORE-KEEPER-SRV-9081",
+  "notices": [
+    {
+      "id": "notice-1",
+      "title": "Manutenção da base",
+      "description": "Expandir armazenamento principal até sexta-feira."
+    },
+    {
+      "id": "notice-2",
+      "title": "Raid no Sunken Sea",
+      "description": "Time B responsável por farming de Galaxite às 21:00."
+    }
+  ],
+  "markers": [
+    {
+      "id": "mark-1",
+      "label": "Arena do Ghorm",
+      "x": 120,
+      "y": -45
+    },
+    {
+      "id": "mark-2",
+      "label": "Base Principal",
+      "x": 8,
+      "y": 12
+    }
+  ]
+}

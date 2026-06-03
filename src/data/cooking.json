@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hearty-stew",
+    "ingredients": ["Carrock", "Mushroom"],
+    "result": "Hearty Stew",
+    "buffs": ["+24 max health", "+5 armor"],
+    "duration": "6m 30s",
+    "rarity": "Uncommon",
+    "sellValue": 84
+  },
+  {
+    "id": "sharp-skewer",
+    "ingredients": ["Bomb Pepper", "Larva Meat"],
+    "result": "Sharp Skewer",
+    "buffs": ["+18% melee damage", "+6% crit chance"],
+    "duration": "5m 00s",
+    "rarity": "Rare",
+    "sellValue": 112
+  },
+  {
+    "id": "swift-broth",
+    "ingredients": ["Heart Berry", "Glow Tulip"],
+    "result": "Swift Broth",
+    "buffs": ["+12% move speed", "+8% dodge"],
+    "duration": "5m 20s",
+    "rarity": "Rare",
+    "sellValue": 126
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "galaxite-sword",
+    "name": "Galaxite Sword",
+    "category": "Weapons",
+    "rarity": "Rare",
+    "description": "Espada equilibrada para lutas no late game.",
+    "equipmentSlots": ["weapon"],
+    "baseStats": { "meleeDamage": 132 },
+    "upgradeBonuses": ["+7 dano corpo a corpo por upgrade", "+2% velocidade de ataque no nível máximo"],
+    "foundIn": { "biome": "Sunken Sea", "source": "Crafting" },
+    "crafting": {
+      "workstation": "Galaxite Workbench",
+      "materials": [
+        { "item": "Galaxite Bar", "quantity": 12 },
+        { "item": "Ancient Gemstone", "quantity": 4 }
+      ],
+      "tree": ["Mine Galaxite Ore", "Smelt into Galaxite Bar", "Craft at Galaxite Workbench"]
+    }
+  },
+  {
+    "id": "scholar-hood",
+    "name": "Scholar Hood",
+    "category": "Armor",
+    "rarity": "Epic",
+    "description": "Capuz focado em esquiva para exploradores.",
+    "equipmentSlots": ["head"],
+    "setName": "Scholar",
+    "setBonus": { "dodge": 6 },
+    "baseStats": { "armor": 34, "dodge": 4 },
+    "upgradeBonuses": ["+2 armadura por upgrade", "+1% esquiva a cada 2 níveis"],
+    "foundIn": { "mob": "Caveling Scholar", "source": "Drop" },
+    "crafting": {
+      "workstation": "Scarlet Workbench",
+      "materials": [
+        { "item": "Scarlet Bar", "quantity": 10 },
+        { "item": "Fiber", "quantity": 18 }
+      ],
+      "tree": ["Farm Scarlet Ore", "Smelt Scarlet Bars", "Craft Armor Piece"]
+    }
+  },
+  {
+    "id": "scholar-robe",
+    "name": "Scholar Robe",
+    "category": "Armor",
+    "rarity": "Epic",
+    "description": "Peitoral leve com resistência sólida.",
+    "equipmentSlots": ["chest"],
+    "setName": "Scholar",
+    "setBonus": { "dodge": 6 },
+    "baseStats": { "armor": 48, "dodge": 3 },
+    "upgradeBonuses": ["+3 armadura por upgrade"],
+    "foundIn": { "source": "Crafting", "biome": "Azeos' Wilderness" },
+    "crafting": {
+      "workstation": "Scarlet Workbench",
+      "materials": [
+        { "item": "Scarlet Bar", "quantity": 16 },
+        { "item": "Fiber", "quantity": 26 }
+      ],
+      "tree": ["Mine Scarlet Ore", "Smelt bars", "Craft Robe"]
+    }
+  },
+  {
+    "id": "scholar-pants",
+    "name": "Scholar Pants",
+    "category": "Armor",
+    "rarity": "Epic",
+    "description": "Calça que completa o conjunto Scholar.",
+    "equipmentSlots": ["legs"],
+    "setName": "Scholar",
+    "setBonus": { "dodge": 6 },
+    "baseStats": { "armor": 39, "dodge": 3 },
+    "upgradeBonuses": ["+2 armadura por upgrade", "+1% move speed no nível máximo"],
+    "foundIn": { "source": "Crafting", "biome": "Azeos' Wilderness" },
+    "crafting": {
+      "workstation": "Scarlet Workbench",
+      "materials": [
+        { "item": "Scarlet Bar", "quantity": 14 },
+        { "item": "Fiber", "quantity": 20 }
+      ],
+      "tree": ["Mine Scarlet Ore", "Smelt bars", "Craft Pants"]
+    }
+  },
+  {
+    "id": "ring-of-stone",
+    "name": "Ring of Stone",
+    "category": "Accessories",
+    "rarity": "Uncommon",
+    "description": "Anel defensivo de progressão inicial.",
+    "equipmentSlots": ["ring"],
+    "baseStats": { "armor": 9 },
+    "upgradeBonuses": ["+1 armadura por upgrade"],
+    "foundIn": { "source": "Drop", "mob": "Stone Moss" },
+    "crafting": {
+      "workstation": "Jewelry Workbench",
+      "materials": [
+        { "item": "Copper Bar", "quantity": 8 },
+        { "item": "Slime", "quantity": 12 }
+      ],
+      "tree": ["Farm Copper Ore", "Craft Copper Bars", "Assemble ring"]
+    }
+  },
+  {
+    "id": "swift-necklace",
+    "name": "Swift Necklace",
+    "category": "Accessories",
+    "rarity": "Rare",
+    "description": "Colar para builds de mobilidade.",
+    "equipmentSlots": ["necklace"],
+    "baseStats": { "dodge": 7 },
+    "upgradeBonuses": ["+1% esquiva por upgrade"],
+    "foundIn": { "source": "Chest", "biome": "Desert of Beginnings" },
+    "crafting": {
+      "workstation": "Jewelry Workbench",
+      "materials": [
+        { "item": "Ancient Gemstone", "quantity": 4 },
+        { "item": "Gold Bar", "quantity": 6 }
+      ],
+      "tree": ["Collect Gemstones", "Smelt Gold", "Craft necklace"]
+    }
+  },
+  {
+    "id": "scarlet-pickaxe",
+    "name": "Scarlet Pickaxe",
+    "category": "Weapons",
+    "rarity": "Rare",
+    "description": "Ferramenta para mineração avançada.",
+    "equipmentSlots": ["tool"],
+    "baseStats": { "meleeDamage": 52 },
+    "upgradeBonuses": ["+5 mining damage por upgrade"],
+    "foundIn": { "source": "Crafting", "biome": "Azeos' Wilderness" },
+    "crafting": {
+      "workstation": "Scarlet Workbench",
+      "materials": [
+        { "item": "Scarlet Bar", "quantity": 14 },
+        { "item": "Wood", "quantity": 18 }
+      ],
+      "tree": ["Mine Scarlet Ore", "Smelt Scarlet Bars", "Craft Pickaxe"]
+    }
+  },
+  {
+    "id": "ancient-gemstone",
+    "name": "Ancient Gemstone",
+    "category": "Materials",
+    "rarity": "Rare",
+    "description": "Material raro usado em equipamentos lendários.",
+    "baseStats": {},
+    "upgradeBonuses": ["Usado para upgrades de tier alto"],
+    "foundIn": { "source": "Loot", "biome": "Sunken Sea" },
+    "crafting": {
+      "workstation": "N/A",
+      "materials": [],
+      "tree": ["Explore dungeons", "Open ornate chests"]
+    }
+  },
+  {
+    "id": "mechanical-part",
+    "name": "Mechanical Part",
+    "category": "Materials",
+    "rarity": "Uncommon",
+    "description": "Componente de receitas tecnológicas.",
+    "baseStats": {},
+    "upgradeBonuses": ["Componente de craft"],
+    "foundIn": { "source": "Salvage", "biome": "The Forgotten Ruins" },
+    "crafting": {
+      "workstation": "Automation Table",
+      "materials": [{ "item": "Tin Bar", "quantity": 3 }],
+      "tree": ["Mine Tin", "Craft Tin Bars", "Assemble parts"]
+    }
+  },
+  {
+    "id": "ancient-coin",
+    "name": "Ancient Coin",
+    "category": "Valuables",
+    "rarity": "Common",
+    "description": "Item valioso para venda.",
+    "baseStats": {},
+    "upgradeBonuses": ["Pode ser vendido para Coin Value"],
+    "foundIn": { "source": "Loot", "biome": "Any" },
+    "crafting": {
+      "workstation": "N/A",
+      "materials": [],
+      "tree": ["Open chests", "Trade with merchants"]
+    }
+  }
+]
