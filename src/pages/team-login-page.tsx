@@ -1,7 +1,7 @@
 import { useLocation, useNavigate } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { setTeamAuthentication } from '@/routes/protected-route'
+import { setTeamAuthentication } from '@/routes/team-auth'
 
 export function TeamLoginPage() {
   const navigate = useNavigate()

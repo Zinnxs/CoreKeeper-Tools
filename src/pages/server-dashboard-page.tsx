@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { serverData } from '@/data'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { setTeamAuthentication } from '@/routes/protected-route'
+import { setTeamAuthentication } from '@/routes/team-auth'
 
 export function ServerDashboardPage() {
   const navigate = useNavigate()
